@@ -4,7 +4,7 @@
   "description": "This is a Workshop about Protractor",
   "main": "index.js",
   "scripts": {
-    "clean": "npm ",
+    "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
     "test": "npm run build && protractor dist/protractor/local.config.js"
   },
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@types/jasminewd2": "^2.0.10",
+    "@types/node": "^16.10.3",
     "typescript": "^4.4.3"
   }
 }
